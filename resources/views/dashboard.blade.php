@@ -67,26 +67,6 @@
             </div>
         </li>
 
-        <li class="list__item list__item--click">
-            <div class="list__button list__button--click">
-                <img src="{{asset('icons/docs.svg')}}" class="list__img">
-                <a class="nav__link">Facturas</a>
-                <img src="{{asset('icons/arrow.svg')}}" class="list__arrow">
-            </div>
-
-            <ul class="list__show">
-
-                <li class="list__inside">
-                    <a href="{{ route('facturas.crear') }}" class="nav__link nav__link--inside">Crear factura</a>
-                </li>
-
-                <li class="list__inside">
-                    <a href="{{ route('facturas.index') }}" class="nav__link nav__link--inside">Listado de factura</a>
-                </li>
-
-            </ul>
-
-        </li>
 
         <li class="list__item list__item--click">
             <div class="list__button list__button--click">
